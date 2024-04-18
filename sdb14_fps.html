@@ -1,0 +1,23 @@
+<html>
+  <h1>PerfChatTest SDB14 FPS</h1>
+<script type='text/javascript'>
+	function initEmbeddedMessaging() {
+		try {
+			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
+
+			embeddedservice_bootstrap.init(
+				'00DLZ0000000c0T',
+				'perfchatbot_fps_esd',
+				'https://perfchattestorg.perf2b.my.pc-rnd.site.com/ESWperfchatbotfpsesd1713467045476',
+				{
+					scrt2URL: 'https://perfchattestorg.perf2b.my.pc-rnd.salesforce-scrt.com'
+				}
+			);
+		} catch (err) {
+			console.error('Error loading Embedded Messaging: ', err);
+		}
+	};
+</script>
+<script type='text/javascript' src='https://perfchattestorg.perf2b.my.pc-rnd.site.com/ESWperfchatbotfpsesd1713467045476/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+
+</html>
